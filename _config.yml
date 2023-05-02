@@ -71,4 +71,4 @@ defaults:
     values:
       layout: page # Set the default layout for pages
       
-
+theme: alembic-jekyll-theme
