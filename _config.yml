@@ -72,4 +72,4 @@ defaults:
       layout: page # Set the default layout for pages
       
 #theme: alembic-jekyll-theme
-remote_theme: hydecorp/hydejack@v9
+remote_theme: hydecorp/hydejack
