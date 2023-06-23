@@ -23,9 +23,9 @@ plugins:
 # Site settings
 url: 'https://mydomain.com'
 baseurl: ''
-title: 'My website'
-description: 'This is my new website'
-permalink: pretty
+title: 'Roshan Balu T M B'
+description: 'Graduate Researcher @ ARPL, NYU'
+permalink: /:title
 logo: "/images/Commencement photos-06.jpg"
 
 # Pagination
@@ -33,13 +33,16 @@ paginate: 5
 paginate_path: blog/page:num
 
 # Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
+# navigation_header:
+# - title: Home
+#   url: /
+# - title: About
+#   url: /about/
+# - title: Blog
+#   url: /blog/
+header_pages:
+  - about.md
+  - categories.md
 
 # Footer nav
 navigation_footer:
