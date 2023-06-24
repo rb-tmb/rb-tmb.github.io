@@ -1,6 +1,5 @@
 # Set theme
-#remote_theme: daviddarnes/alembic@main
-remote_theme: hydecorp/hydejack@v9
+remote_theme: daviddarnes/alembic@main
 
 # File excludes
 exclude:
@@ -26,8 +25,12 @@ url: 'https://mydomain.com'
 baseurl: ''
 title: 'Roshan Balu T M B'
 description: 'Graduate Researcher @ ARPL, NYU'
-permalink: pretty
 logo: "/images/Commencement photos-06.jpg"
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: America/New_York # Timezone for blog posts and alike
 
 # Pagination
 paginate: 5
@@ -41,9 +44,6 @@ navigation_header:
   url: /about/
 - title: Blog
   url: /blog/
-# header_pages:
-#   - about.md
-#   - categories.md
 
 # Footer nav
 navigation_footer:
@@ -74,6 +74,10 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  LinkedIn: https://www.linkedin.com/in/roshan-balakrishnan
+  GitHub: https://github.com/rb-tmb
       
 #theme: alembic-jekyll-theme
 #remote_theme: hydecorp/hydejack
