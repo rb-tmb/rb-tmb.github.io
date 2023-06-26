@@ -7,7 +7,8 @@ feature_text: |
 
 ## Hi!
 I am Roshan!
-![my_image](/images/Commencement photos-06.jpg)
+
+![my_image](/images/Commencement photos-06.jpg){: style="float: left"; margin-right: 10em; height="25%" width="25%"} ## Hi!\ I am Roshan!
 
 - I am a Graduate Research Engineer @ [Agile Robotics & Perception Lab](https://wp.nyu.edu/arpl/), NYU
 - Experienced in **Mechatronics** full-product development: Mobile Robots, Gantry systems, Fixtures for Manufacturing
