@@ -25,7 +25,7 @@ url: 'https://mydomain.com'
 baseurl: ''
 title: 'Roshan Balu T M B'
 description: 'Graduate Researcher @ ARPL, NYU'
-logo: "/images/Commencement photos-06.jpg"
+#logo: "/images/Commencement photos-06.jpg"
 sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
