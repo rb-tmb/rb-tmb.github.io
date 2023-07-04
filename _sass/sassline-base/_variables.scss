@@ -56,8 +56,9 @@ $gutterwidths: (
 // Add weight and style details too.
 // ! Set cap height to set to the baseline.
 $bodytype: (
-  font-family: 'Georgia, serif',
-  regular: 400,
+  //font-family: 'Georgia, serif',
+  font-family: 'Times, serif',
+  regular: 200,
   bold: 700,
   italic: italic,
   cap-height: 0.66
